@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/lfgm"
+>
+
+			 	<Button
+			 		android:id="@+id/easyMode"
+			 		android:layout_width="150dip" 
+			    	android:layout_height="wrap_content" 
+			    	android:text="Easy Mode"
+			    	android:layout_gravity="center"
+			 	/>
+			 	<Button
+			 		android:id="@+id/timedMode"
+			 		android:layout_width="150dip" 
+			    	android:layout_height="wrap_content" 
+			    	android:text="Timed Mode"
+			    	android:layout_gravity="center"
+			 	/>
+			 
+		
+</LinearLayout>

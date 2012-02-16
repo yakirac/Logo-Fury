@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/lfgm"
+>
+
+			 	<Button
+			 		android:id="@+id/easy"
+			 		android:layout_width="150dip" 
+			    	android:layout_height="40dip" 
+			    	android:text="Easy"
+			    	android:layout_gravity="center"
+			 	/>
+			 	<Button
+			 		android:id="@+id/medium"
+			 		android:layout_width="150dip" 
+			    	android:layout_height="40dip" 
+			    	android:text="Medium"
+			    	android:layout_gravity="center"
+			 	/>
+			 	<Button
+			 		android:id="@+id/difficult"
+			 		android:layout_width="150dip" 
+			    	android:layout_height="40dip" 
+			    	android:text="Difficult"
+			    	android:layout_gravity="center"
+			 	/>
+			 	<Button
+			 		android:id="@+id/changeBackground"
+			 		android:layout_width="179dip" 
+			    	android:layout_height="40dip" 
+			    	android:text="Change Card Background"
+			    	android:layout_gravity="center"
+			 	/>
+			 
+		
+</LinearLayout>

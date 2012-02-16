@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#333333"
+>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Choose a Card Background:"
+					android:textSize="20sp"
+					android:textColor="#9F4800"
+				></TextView>
+			 	<ImageButton
+			 		android:id="@+id/gray"
+			 		android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content" 
+			    	android:src="@drawable/lfgmsmall"
+			    	android:layout_gravity="center"
+			 	/>
+			 	<ImageButton
+			 		android:id="@+id/black"
+			 		android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content" 
+			    	android:src="@drawable/lfbmsmall"
+			    	android:layout_gravity="center"
+			 	/>
+			 	<Button
+			 		android:id="@+id/changeMode"
+			 		android:layout_width="150dip" 
+			    	android:layout_height="wrap_content" 
+			    	android:text="Change Mode"
+			    	android:layout_gravity="center"
+			 	/>
+			 
+		
+</LinearLayout>

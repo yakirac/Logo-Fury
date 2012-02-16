@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.elon.logofury"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/lfg" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".LogoFury"
+                  android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="LogoChooseMode" android:screenOrientation="portrait"></activity>
+        <activity android:name="CardBackgroundChooser" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoMenu" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel1" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel1Black" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel1Timed" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel1TimedBlack" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel2" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel2Black" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel2Timed" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel2TimedBlack" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel3" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel3Black" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel3Timed" android:screenOrientation="portrait"></activity>
+        <activity android:name="LogoLevel3TimedBlack" android:screenOrientation="portrait"></activity>
+
+    </application>
+
+
+</manifest> 
